@@ -1,0 +1,141 @@
+body {
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+
+.main {
+    display: flex;
+}
+
+.clock_logo {
+    height: auto;
+    width: 130px;
+}
+
+.first_container {
+    height: 240px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.first_item {
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    margin-right: 10px;
+}
+
+.img_sec {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#dropdown {
+    margin-left: 25px;
+    height: 25px;
+    width: 150px;
+}
+
+.second_container {
+    background-color: grey;
+    height: 400px;
+}
+
+h3 {
+    background-color: #6b3d95;
+    color: lightgrey;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #8b53f4 25%, #e556fd, #f798d2);
+}
+
+button:hover {
+    background-image: linear-gradient(to left, #8b53f4, #e556fd, #f798d2);
+}
+
+.second_newcontainer {
+    margin-left: 50px;
+}
+
+.first_section {
+    height: 100px;
+    width: 430px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.second_section {
+    height: 40px;
+    width: 430px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+b {
+    font-size: larger;
+    margin-right: 7px;
+}
+
+p {
+    font-weight: 800;
+}
+
+#time_img-1 {
+    background-image: url(./images/timeline.svg);
+    height: 70px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #d04ce8;
+}
+
+#time_img-2 {
+    background-image: url(./images/AM_svg.svg);
+    height: 62px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #f3d0e5;
+    padding-top: 10px;
+}
+
+.display_container {
+    height: 160px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: #d5b3f5;
+    padding: 15px;
+    color: #8b53f4;
+    border-radius: 10px;
+}
+
+#img_section {
+    margin-top: 10px;
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
